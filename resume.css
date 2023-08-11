@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+#bodyheader{
+    background-image: url(image/macbook_mouse.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+
+}
+#name{
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+nav{
+    display: inline-block;
+}
+.horizontal-list{
+    list-style: none;
+    
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+.horizontal-list li{
+    display: inline-block;
+    
+    margin: 0px 10px 10px 0px;
+}
+.horizontal-list li a{
+    color: white ;
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
