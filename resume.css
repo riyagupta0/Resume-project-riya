@@ -16,14 +16,18 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
-    text-align: center;
+    /* text-align: center; */
+    display: block;
+    
 
 
 }
 .horizontal-list li{
-    display: inline-block;
-    margin: 0px 20px 20px 0px;
+    display:inline-block;
+    margin: 0px 10px 10px 0px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .horizontal-list li a{
     color: white ;
@@ -45,10 +49,11 @@ body{
 .name-header{
     text-align: center;
     color: antiquewhite;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 0.2rem;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    /* margin-bottom: 5px; */
+    /* margin-top: 5px; */
+    /* padding: -15vh; */
 }
 .icon-size{
     height:6rem;
@@ -57,7 +62,7 @@ body{
 .icon-size a img{
     height: 20%;
     width: 20%;
-
+    box-shadow: rgba(230,196,196,0.3);
     
 }
 #about{
@@ -82,4 +87,31 @@ body{
     width:500px;
     text-align: center;
     margin: auto;
+}
+#social-icon{
+    height: 10vh;
+    /* width: 70%; */
+    /* margin-top: -2vh; */
+    padding: auto;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 5vh;
+    /* display: inline-block; */
+    
+}
+.sc-list li{
+    /* margin: 0px 0px 0px 0px; */
+    height: 20%;
+    width: 10%;
+    /* text-align: center; */
+    display: inline-block;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    font-size: 3px;
+    /* border: 1px solid black; */
+    margin-bottom: 2vh;
+    padding: auto;
 }
